@@ -1,21 +1,75 @@
 body{
-    width: 100%;
     color: gray;
-    background-attachment: fixed;
     background-size: cover;
-    background-color: #3b3b3b;
+    background-color: #fff;
+    background-image: url("/images/fairy-meadows.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 100%;
 }
 
 .main{
     width: 96%;
-    height: 100%;
-    margin: 15px;
+    height: 952px;
+    margin: 0px;
     border: 1px solid rgb(255, 0, 0);
     padding: 20px;
 }
 
+.top-nav{
+  width: 100%;
+  height: 100px;
+}
+
+.logo{
+  position: absolute;
+  width: 380px;
+  height: 100px;
+}
+
+.logo img{
+  position: absolute;
+  padding: 14px 44px;
+}
+
+.nav-bar{
+  padding-left: 480px;
+  padding-right: 125px;
+  
+}
+
+.top-nav nav{
+  width: 100%;
+  height: 100px;
+}
+
+.top-nav nav ul{
+  list-style: none;
+  display: inline-block;
+}
+
+.top-nav nav ul li{
+  float: left;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+.top-nav nav ul li:hover{
+  background-color: white;
+}
+
+.top-nav nav a{
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000000;
+  font-size: 20px;
+}
+
 .part-one{
-    width: 100%;
+  padding-left: 166px;
 }
 
 .part-two{
@@ -23,15 +77,30 @@ body{
   margin-top: 50px;
 }
 
-h1 { color: rgb(228, 105, 105); 
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     font-size: 50px; 
-     font-weight: bold; 
-     letter-spacing: -1px; line-height: 1;
-     text-align: center; 
-     text-transform: uppercase;
-     text-shadow: 3px 3px #ff0000;
-    }
+.register h1{
+  color: rgb(228, 105, 105); 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px; 
+  font-weight: bold; 
+  letter-spacing: -1px; line-height: 1;
+  text-align: center; 
+  text-transform: uppercase;
+  text-shadow: 3px 3px #ff0000;
+  margin-top: 40px;
+}
+
+.part-one h1{
+  color: rgb(228, 105, 105); 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px; 
+  font-weight: bold; 
+  letter-spacing: -1px; line-height: 1;
+  text-align: center; 
+  text-transform: uppercase;
+  text-shadow: 3px 3px #ff0000;
+  margin-top: 200px;
+}
+
 .main p{
     color: wheat;
     font-weight: bold;
@@ -57,7 +126,7 @@ h1 { color: rgb(228, 105, 105);
     background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    margin-left: 44%;
+    margin-left: 42%;
   }
   
 .main button:hover {background-color: #3e8e41}
